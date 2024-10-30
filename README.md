@@ -1,5 +1,4 @@
 # swissrmy
----
 
 This Repository is a collect of python programs that I have created mainly for my personal use.
 
