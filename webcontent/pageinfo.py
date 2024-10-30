@@ -1,6 +1,10 @@
 import requests
 from sys import argv
 
+if len(argv) < 2 or argv[1] == '-h' or argv[1] == '--help':
+    print('Usage: pageinfo.py <url>')
+    exit(1)
+
 page = requests.get(f'{argv[1]}')
 
 print('Here are the headers returned from the page:')
